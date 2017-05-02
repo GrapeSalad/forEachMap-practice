@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Groceries</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Groceries</h1>
+      <form id="item">
+        <div class="form-group">
+          <label for="item1">Item</label>
+          <input id="item1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item2">Item</label>
+          <input id="item2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item3">Item</label>
+          <input id="item3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item4">Item</label>
+          <input id="item4" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item5">Item</label>
+          <input id="item5" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Add!</button>
+      </form>
+
+      <div>
+        <ul id="groceryOutput">
+
+        </ul>
+      </div>
+
+      <form id="sentence">
+        <div class="form-group">
+          <label for="sentence1">Write out a sentence for javascript to mess up:</label>
+          <input id="sentence1" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Fiddle with it!</button>
+      </form>
+      <div>
+        <ul id="sentenceOutput">
+        </ul>
+      </div>
+
+      <form id="deck">
+        <button type="submit" class="btn">Deck of cards!</button>
+      </form>
+      <div>
+        <ul id="cards">
+        </ul>
+      </div>
+
+      <form id="blockText">
+        <div class="form-group">
+          <label for="blockText1">Write out a whole buncha text to check for redundancy</label>
+          <input id="blockText1" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">PARSE IT</button>
+      </form>
+      <div>
+        <ul id="blockTextOutput">
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
